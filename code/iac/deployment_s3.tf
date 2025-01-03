@@ -6,9 +6,9 @@ resource "aws_s3_bucket" "data" {
   bucket        = "${local.resource_prefix.value}-data"
   force_destroy = true
   tags = {
-    git_commit           = "27e0ac7feb1e2a25798719edcde78acf016e060c"
+    git_commit           = "dae06248ba3414e47c2af7c6e7161244df4555f6"
     git_file             = "code/iac/deployment_s3.tf"
-    git_last_modified_at = "2025-01-03 19:49:51"
+    git_last_modified_at = "2025-01-03 18:29:57"
     git_last_modified_by = "kwan@paloaltonetworks.com"
     git_modifiers        = "kwan"
     git_org              = "kwan-prismacloud"
@@ -65,9 +65,9 @@ resource "aws_s3_bucket" "operations" {
   bucket        = "${local.resource_prefix.value}-operations"
   force_destroy = true
   tags = {
-    git_commit           = "27e0ac7feb1e2a25798719edcde78acf016e060c"
+    git_commit           = "dae06248ba3414e47c2af7c6e7161244df4555f6"
     git_file             = "code/iac/deployment_s3.tf"
-    git_last_modified_at = "2025-01-03 19:49:51"
+    git_last_modified_at = "2025-01-03 18:29:57"
     git_last_modified_by = "kwan@paloaltonetworks.com"
     git_modifiers        = "kwan"
     git_org              = "kwan-prismacloud"
@@ -94,9 +94,9 @@ resource "aws_s3_bucket" "data_science" {
   bucket        = "${local.resource_prefix.value}-data-science"
   force_destroy = true
   tags = {
-    git_commit           = "27e0ac7feb1e2a25798719edcde78acf016e060c"
+    git_commit           = "dae06248ba3414e47c2af7c6e7161244df4555f6"
     git_file             = "code/iac/deployment_s3.tf"
-    git_last_modified_at = "2025-01-03 19:49:51"
+    git_last_modified_at = "2025-01-03 18:29:57"
     git_last_modified_by = "kwan@paloaltonetworks.com"
     git_modifiers        = "kwan"
     git_org              = "kwan-prismacloud"
@@ -129,9 +129,9 @@ resource "aws_s3_bucket" "logs" {
   bucket        = "${local.resource_prefix.value}-logs"
   force_destroy = true
   tags = {
-    git_commit           = "27e0ac7feb1e2a25798719edcde78acf016e060c"
+    git_commit           = "dae06248ba3414e47c2af7c6e7161244df4555f6"
     git_file             = "code/iac/deployment_s3.tf"
-    git_last_modified_at = "2025-01-03 19:49:51"
+    git_last_modified_at = "2025-01-03 18:29:57"
     git_last_modified_by = "kwan@paloaltonetworks.com"
     git_modifiers        = "kwan"
     git_org              = "kwan-prismacloud"
